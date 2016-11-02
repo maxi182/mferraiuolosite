@@ -6,7 +6,7 @@ categories: android
 author: Maximiliano Ferraiuolo
 comments: true
 tags: service, android
-image: /assets/article_images/2016-10-18-service-or-IntentService/mac-glasses.jpg
+image: /assets/article_images/2016-10-18-service-or-IntentService/mac-glasses.jpeg
 ---
 
 
