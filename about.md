@@ -26,4 +26,6 @@ I also love London dev talks, which you can find them very often, with speakers 
 
 # Contact me
 
-EMAIL: maxi08 AT gmail DOT com
+[Email](mailto:maxi08@gmail.com)
+
+@maxif_182
