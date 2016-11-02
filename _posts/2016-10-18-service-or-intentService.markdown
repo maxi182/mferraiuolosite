@@ -10,7 +10,7 @@ image: /assets/article_images/2016-10-18-service-or-IntentService/mac-glasses.jp
 ---
 
 
-I face with many situation where I had to do a long running operation in background where the better solution could be create a service for that, but as you probably should already know, any operation we make in a service class is going to run in our main thread, this can be one of the cases we should take a look to IntentServices.
+I have faced with many situation where I had to do a long running operation in background where the better solution could be create a service for that, but as you probably should already know, any operation we make in a service class is going to run in our main thread, this can be one of the cases we should take a look to IntentServices.
 
 ## This is a quick overview comparing the use of a Service vs an IntentService:
 
