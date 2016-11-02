@@ -1,0 +1,69 @@
+# Build settings
+gems:
+  - jemoji
+  - jekyll-paginate
+
+highlighter: rouge
+markdown: kramdown
+kramdown:
+  input: GFM
+  auto_ids: true
+  syntax_highlighter: rouge
+
+# Site settings
+title: Maximiliano Ferraiuolo
+description: "Passionate software engineer & devoted Android developer, not always brillant. But when I do good things happens" 
+email: maxi08@gmail.com
+#favicon
+favicon: /favicon.png
+
+email: maxi08@gmail.com
+#blog logo
+logo: "/assets/images/df_logo.png"
+# blog cover
+cover: "/assets/images/oldstreet.jpg"
+
+name: 'Maximiliano Ferraiuolo'
+author: 'Maximiliano Ferraiuolo'
+author_image: "/assets/images/author.jpg"
+
+paginate:	5
+
+url: "https://mferraiuolo.co.uk" # the base hostname & protocol for your site
+baseurl: ""
+#used to display twitter cards
+twitter_handle: '@maxif_182'
+ga_tracking_id: 'UA-58206969-1'
+
+#fill in disqus shortname to use disqus
+disqus: maxif_182
+
+# social icons and sharing options
+social:
+  - icon:	twitter
+    url:	https://twitter.com/maxif_182
+    desc: Follow me on twitter
+    share_url: http://twitter.com/share
+    share_title: ?text=
+    share_link: "&amp;url="
+
+#  - icon:	facebook
+#    url:	https://facebook.com/???
+#    desc: Connect with me facebook
+#    share_url: https://www.facebook.com/sharer.php
+#    share_title: ?t=
+#    share_link: "&amp;u="
+
+  - icon:	linkedin
+    url:	https://www.linkedin.com/in/maximiliano-ferraiuolo-a677a7a?trk=hp-identity-photo
+    desc:	LinkedIn
+    share_url:
+    share_title:
+    share_link:
+
+#  - icon:	google-plus
+#    url:	https://google.com/???
+#    desc:	Add me on google+
+#    share_url:
+#    share_title:
+#    share_link:
