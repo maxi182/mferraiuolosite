@@ -69,7 +69,7 @@ due to extending GcmTaskService, we must implement the onRunTask method in Custo
 
 
 
-{% highlight java %}
+```java
 public class MyTaskService extends GcmTaskService {
 @Override
 public int onRunTask(TaskParams taskParams) {
@@ -90,7 +90,7 @@ public int onRunTask(TaskParams taskParams) {
     }
 
 }
-{% endhighlight %}
+```
 This is what's called when it's time for a task to be run. We check the tag of the TaskParams that’s been given as a parameter, as each tag will uniquely identify a different task that’s been scheduled. Normally some important networking task or logic would occur inside the case blocks, but this example just prints a log statement.
 
 
