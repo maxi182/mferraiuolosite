@@ -63,6 +63,7 @@ public class MyTestService extends IntentService {
         <service
           android:name=".MyTestService"
           android:exported="false"/>
+          
 <application/>
 
 

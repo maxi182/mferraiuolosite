@@ -33,7 +33,7 @@ url: "https://mferraiuolo.co.uk" # the base hostname & protocol for your site
 baseurl: ""
 #used to display twitter cards
 twitter_handle: '@maxif_182'
-ga_tracking_id: 'UA-58206969-1'
+ga_tracking_id: 'UA-86839354-1
 
 #fill in disqus shortname to use disqus
 disqus: maxif_182
