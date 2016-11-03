@@ -20,6 +20,7 @@ I also love London dev talks, which you can find them very often, with speakers 
 
 . Android Studio
 . JIRA
+. GIT
 . Slack
 . Spotify
 . Coffe
@@ -27,13 +28,5 @@ I also love London dev talks, which you can find them very often, with speakers 
 # Contact me
 
 [maxi08@gmail.com](mailto:maxi08@gmail.com)
-
-
->>> from markdown import Markdown
->>> from fontawesome_markdown import FontAwesomeExtension
-
->>> markdown = Markdown(extensions=[FontAwesomeExtension()]
->>> markdown.convert('i ♥ :fa-coffee:')
-<p>i ♥ <i class="fa fa-coffee"></i></p>
-
+ 
 [@maxif_182](https://twitter.com/maxif_182)

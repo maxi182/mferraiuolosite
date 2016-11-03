@@ -48,20 +48,17 @@ First, add the appropriate dependency for the GCM Network Manager to the build.g
 Make sure you are not adding the whole google play service dependency which is going to add too many unnecessary libs, and you can pass your dex limit method count over 65k, just add play-services-gcm.
 
 Next, we must declare a new Service in the Android Manifest inside <application>:
- 
-```
-#!xml
 
 
-        <service android:name=".MyTaskService"
+{% highlight xml %}
+ <service android:name=".MyTaskService"
             android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE"
             android:exported="true">
             <intent-filter>
                 <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY"/>
             </intent-filter>
         </service>
-
-```
+{% endhighlight %}
 
 
 The name of the service (MyTaskService) is the name of the class that will extend GcmTaskService, which is the core class for dealing with GCM Network Manager. This service will handle the running of a task, where a task is any piece of individual work that we want to accomplish. The intent-filter of action SERVICE_ACTION_EXECUTE_TASK is to receive the notification from the scheduler of the GCM Network Manager that a task is ready to be executed.
@@ -72,11 +69,8 @@ due to extending GcmTaskService, we must implement the onRunTask method in Custo
 
 
 
-```
-#!java
-
+{% highlight java %}
 public class MyTaskService extends GcmTaskService {
-        
 @Override
 public int onRunTask(TaskParams taskParams) {
         Log.i(TAG, "onRunTask");
@@ -96,9 +90,7 @@ public int onRunTask(TaskParams taskParams) {
     }
 
 }
-
-
-```
+{% endhighlight %}
 This is what's called when it's time for a task to be run. We check the tag of the TaskParams that’s been given as a parameter, as each tag will uniquely identify a different task that’s been scheduled. Normally some important networking task or logic would occur inside the case blocks, but this example just prints a log statement.
 
 
