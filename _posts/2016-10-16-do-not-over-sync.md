@@ -109,9 +109,7 @@ Now, here’s how we would schedule a **one-off** task:
 
 
 
-```
-#!java
-
+```java
 
 Task task = new OneoffTask.Builder()
               .setService(MyTaskService.class)
@@ -143,8 +141,7 @@ Using the builder pattern, we define all the aspects of our Task:
 And, here’s how we would schedule a **periodic** task:
 
 
-```
-#!java
+```java
 
 Task task = new PeriodicTask.Builder()
                         .setService(MyTaskService.class)
@@ -169,8 +166,7 @@ Canceling Tasks**
 We already know how to schedule task with GCM Networking, also we need to know how to cancel them.
 You can **cancel all** tasks for a given GcmTaskService:
 
-```
-#!java
+```java
 
 GcmNetworkManager.getInstance(context).cancelAllTasks(MyTaskService.class);
 
@@ -178,8 +174,7 @@ GcmNetworkManager.getInstance(context).cancelAllTasks(MyTaskService.class);
 
 And you can also **cancel a specific task** by providing its tag and GcmTaskService:
 
-```
-#!java
+```java
 
 
 GcmNetworkManager.getInstance(context).cancelTask(

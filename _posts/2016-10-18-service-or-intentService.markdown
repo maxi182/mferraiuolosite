@@ -26,9 +26,7 @@ First, you define a class within your application that extends IntentService and
 
 
 
-```
-#!java
-
+```java
 public class MyTestService extends IntentService {
     // Must create a default constructor
     public MyTestService() {
@@ -56,8 +54,7 @@ public class MyTestService extends IntentService {
 ## Registering the Intent Service
 
 
-```
-#!xml
+```xml
 
 <application
         android:icon="@drawable/icon"
@@ -80,8 +77,7 @@ Note: We specify this in the manifest file with the name and `exported` properti
 Now we already have defined the service, let's take a look how to trigger it passing some input data that we would need to run our task.
 
 
-```
-#!java
+```java
 
 public class MainActivity extends Activity { 
     // Call `launchTestService()` in the activity
@@ -108,9 +104,7 @@ I had seen diferent options to communicate our service with the UI thread like:
 Using a BrodcastReceiver we would have something like the following code:
 
 
-```
-#!java
-
+```java
 
 public class MyTestService extends IntentService {
 
@@ -156,9 +150,7 @@ public class MyTestService extends IntentService {
 After that, we create or ProgressReceiver class which is going to extend from BrodcastReceiver:
 
 
-```
-
-#!java
+```java
 public class ProgressReceiver extends BroadcastReceiver {
  
     @Override
@@ -178,8 +170,7 @@ public class ProgressReceiver extends BroadcastReceiver {
 We need to declare the BrodcastReceiver in the AndroidManifest file so that way, our BrodcastReceiver is going to be able to be called even when the app is killed.
 
 
-```
-#!xml
+```xml
         <receiver android:name="com.brodcastest.MyTestService">
 
         <intent-filter>
