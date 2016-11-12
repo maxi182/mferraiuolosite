@@ -2,7 +2,7 @@
 layout: post
 title: "Do not over Sync!"
 date: 2016-10-16 12:00:40 +01:00
-categories: testing
+categories: android
 author: Maximiliano Ferraiuolo
 comments: true
 tags: testing,android
