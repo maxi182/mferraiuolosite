@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "nombre": "Banana",
+      "name": "Banana",
       "providers":[{
       "id": 1,
       "name": "Bataglio",
@@ -26,7 +26,7 @@
     },
   {
       "id": 1,
-      "nombre": "Manzana",
+      "name": "Manzana",
       "providers":[{
       "id": 1,
       "name": "Vicente",
