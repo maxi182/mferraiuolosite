@@ -12,7 +12,7 @@
               "packaging": {
                           "isFree": true,
                            "value": 0
-                          },
+                          }
        },
        {      
              "id": 2,
@@ -20,7 +20,7 @@
              "packaging": {
                           "isFree": true,
                            "value": 0
-                          },
+                          }
       }],
 }], 
     },
@@ -36,7 +36,7 @@
               "packaging": {
                           "isFree": true,
                            "value": 0
-                          },
+                          }
        },
        {      
              "id": 2,
@@ -44,7 +44,7 @@
              "packaging": {
                           "isFree": true,
                            "value": 0
-                          },
+                          }
       }],
     }],
        
