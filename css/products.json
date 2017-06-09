@@ -1,54 +1,53 @@
 {
-  "products": [
-    {
+  "products": [{
       "id": 1,
       "name": "Banana",
-      "providers":[{
-      "id": 1,
-      "name": "Bataglio",
-      "types":[{
-              "id": 1,
-              "name": "Ecuador",
-              "packaging": {
-                          "isFree": true,
-                           "value": 0
-                          }
-       },
-       {      
-             "id": 2,
-             "name": "Brasil",
-             "packaging": {
-                          "isFree": true,
-                           "value": 0
-                          }
+      "providers": [{
+        "id": 1,
+        "name": "Bataglio",
+        "types": [{
+            "id": 1,
+            "name": "Ecuador",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 2,
+            "name": "Brasil",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
       }]
-}]
     },
-  {
-      "id": 1,
+    {
+      "id": 2,
       "name": "Manzana",
-      "providers":[{
-      "id": 1,
-      "name": "Vicente",
-      "types":[{
-              "id": 1,
-              "name": "Red Delicius",
-              "packaging": {
-                          "isFree": true,
-                           "value": 0
-                          }
-       },
-       {      
-             "id": 2,
-             "name": "Grany Smith",
-             "packaging": {
-                          "isFree": true,
-                           "value": 0
-                          }
+      "providers": [{
+        "id": 1,
+        "name": "Vicente",
+        "types": [{
+            "id": 1,
+            "name": "Red Delicius",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 2,
+            "name": "Grany Smith",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
       }]
-    }]
-       
     }
-   
   ]
 }
