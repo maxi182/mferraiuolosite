@@ -3,10 +3,10 @@
       "id": 1,
       "name": "Banana",
       "providers": [{
-        "id": 1,
+        "id": 10,
         "name": "Bataglio",
         "types": [{
-            "id": 1,
+            "id": 101,
             "name": "Ecuador",
             "packaging": {
               "isFree": true,
@@ -14,7 +14,7 @@
             }
           },
           {
-            "id": 2,
+            "id": 102,
             "name": "Brasil",
             "packaging": {
               "isFree": true,
@@ -28,10 +28,10 @@
       "id": 2,
       "name": "Manzana",
       "providers": [{
-        "id": 1,
+        "id": 20,
         "name": "Vicente",
         "types": [{
-            "id": 1,
+            "id": 201,
             "name": "Red Delicius",
             "packaging": {
               "isFree": true,
@@ -39,11 +39,58 @@
             }
           },
           {
-            "id": 2,
+            "id": 202,
             "name": "Grany Smith",
             "packaging": {
               "isFree": true,
               "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Vicente",
+        "types": [{
+            "id": 201,
+            "name": "Red Delicius",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 202,
+            "name": "Grany Smith",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }
+      ]
+    },
+        {
+      "id": 3,
+      "name": "Naranja",
+      "providers": [{
+        "id": 30,
+        "name": "Matina",
+        "types": [{
+            "id": 301,
+            "name": "Jugo",
+            "packaging": {
+              "isFree": false,
+              "value": 30
+            }
+          },
+          {
+            "id": 302,
+            "name": "Ombligo",
+            "packaging": {
+              "isFree": false,
+              "value": 30
             }
           }
         ]
