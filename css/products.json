@@ -22,17 +22,13 @@
             }
           }
         ]
-      }]
-    },
-    {
-      "id": 1,
-      "name": "Banana",
-      "providers": [{
+      },
+      {
         "id": 11,
         "name": "Insanti",
         "types": [{
-            "id": 111,
-            "name": "Bolivia",
+            "id": 101,
+            "name": "Ecuador",
             "packaging": {
               "isFree": true,
               "value": 0
@@ -47,7 +43,8 @@
             }
           }
         ]
-      }]
+       }
+      ]
     },
     {
       "id": 2,
