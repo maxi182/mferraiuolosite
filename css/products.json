@@ -47,39 +47,17 @@
             }
           }
         ]
-      },
-      {
-        "id": 2,
-        "name": "Vicente",
-        "types": [{
-            "id": 201,
-            "name": "Red Delicius",
-            "packaging": {
-              "isFree": true,
-              "value": 0
-            }
-          },
-          {
-            "id": 202,
-            "name": "Grany Smith",
-            "packaging": {
-              "isFree": true,
-              "value": 0
-            }
-          }
-        ]
-      }
-      ]
+      }]
     },
-{
-      "id": 4,
+     {
+      "id": 3,
       "name": "Pera",
       "providers": [{
-        "id": 201,
+        "id": 20,
         "name": "Vicente",
         "types": [{
-            "id": 401,
-            "name": "Pachams",
+            "id": 301,
+            "name": "Packhams",
             "packaging": {
               "isFree": true,
               "value": 0
@@ -88,14 +66,14 @@
         ]
       }]
     },
-        {
-      "id": 3,
+     {
+      "id": 4,
       "name": "Naranja",
       "providers": [{
-        "id": 30,
+        "id": 40,
         "name": "Matina",
         "types": [{
-            "id": 301,
+            "id": 401,
             "name": "Jugo",
             "packaging": {
               "isFree": false,
@@ -103,7 +81,7 @@
             }
           },
           {
-            "id": 302,
+            "id": 402,
             "name": "Ombligo",
             "packaging": {
               "isFree": false,
