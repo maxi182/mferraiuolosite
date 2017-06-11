@@ -28,7 +28,7 @@
         "name": "Insanti",
         "types": [{
             "id": 111,
-            "name": "Bolivia",
+            "name": "Ecuador",
             "packaging": {
               "isFree": true,
               "value": 0
