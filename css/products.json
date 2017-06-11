@@ -22,7 +22,29 @@
             }
           }
         ]
-      }]
+      },
+      {
+        "id": 11,
+        "name": "Insanti",
+        "types": [{
+            "id": 111,
+            "name": "Bolivia",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 112,
+            "name": "Brasil",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }
+      ]
     },
     {
       "id": 2,
