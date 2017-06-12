@@ -1,0 +1,66 @@
+{
+  "providers": [{
+      "id": 1,
+      "name": "Insanti",
+      "products": [{
+        "id": 10,
+        "name": "Banana",
+        "types": [{
+            "id": 101,
+            "name": "Ecuador",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 102,
+            "name": "Brasil",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 2,
+      "name": "Vicente",
+      "products": [{
+        "id": 20,
+        "name": "Manzana",
+        "types": [{
+            "id": 201,
+            "name": "Red delicius",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 21,
+            "name": "Granny Smith",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Pera",
+        "types": [{
+            "id": 301,
+            "name": "Packhams",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
+    }
+  ]
+}
