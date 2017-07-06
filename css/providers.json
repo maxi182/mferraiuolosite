@@ -42,8 +42,8 @@
             "id": 21,
             "name": "Granny Smith",
             "packaging": {
-              "isFree": true,
-              "value": 0
+              "isFree": false,
+              "value": 30
             }
           }
         ]
