@@ -61,6 +61,44 @@
           }
         ]
       }]
+    },
+    {
+      "id": 3,
+      "name": "Global",
+      "products": [{
+        "id": 20,
+        "name": "Manzana",
+        "types": [{
+            "id": 201,
+            "name": "Red delicius",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 21,
+            "name": "Granny Smith",
+            "packaging": {
+              "isFree": false,
+              "value": 30
+            }
+          }
+        ]
+      },
+      {
+        "id": 30,
+        "name": "Pera",
+        "types": [{
+            "id": 301,
+            "name": "Packhams",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
     }
   ]
 }
