@@ -7,7 +7,7 @@ permalink: /about/
 # Who am I?
 
 I'm an Argentinean (son of Italians) System Engineer, currently living in London as a professional experience since October 2015.
-At the moment I work as Android Developer in [Locassa](https://locassa.com), the most trusted UK mobile agency. Check out our portfolio!
+At the moment I am working as Android Developer in [Ostmodern](https://ostmodern.co.uk), building the BBC player app. Check out our portfolio!
 Before came to London, I was working at [Globant](https://globant.com) as a part of the JP Morgan Chase Android team in Delaware, NY.
 
 
