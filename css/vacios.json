@@ -1,0 +1,66 @@
+{
+  "providers": [{
+      "id": 1,
+      "name": "Tallador",
+      "products": [{
+        "id": 110,
+        "name": "Torito",
+        "types": [{
+            "id": 1101,
+            "name": "x $30",
+            "packaging": {
+              "isFree": false,
+              "value": 30
+            }
+          }
+        ]
+      },{
+        "id": 120,
+        "name": "Bandeja Torito",
+        "types": [{
+            "id": 1201,
+            "name": "x $50",
+            "packaging": {
+              "isFree": false,
+              "value": 30
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 2,
+      "name": "Vicente",
+      "products": [{
+        "id": 210,
+        "name": "Bandeja Plastico",
+        "types": [{
+            "id": 2101,
+            "name": "x $50",
+            "packaging": {
+              "isFree": false,
+              "value": 50
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 3,
+      "name": "Sol-And",
+      "products": [{
+        "id": 30,
+        "name": "Bandeja frutilla",
+        "types": [{
+            "id": 301,
+            "name": "x $30",
+            "packaging": {
+              "isFree": false,
+              "value": 30
+            }
+          }
+        ]
+      }]
+    }
+  ]
+}
