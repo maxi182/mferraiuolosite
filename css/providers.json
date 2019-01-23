@@ -63,7 +63,7 @@
             }
           },
           {
-            "id": 203,
+            "id": 205,
             "name": "Granny Smith",
             "packaging": {
               "isFree": true,
@@ -77,10 +77,36 @@
         "name": "Pera",
         "types": [{
             "id": 211,
-            "name": "Packhams",
+            "name": "Giffard",
             "packaging": {
               "isFree": true,
               "value": 0
+            }
+          }
+        ]
+      },
+     {
+        "id": 32,
+        "name": "Ciruela",
+        "types": [{
+            "id": 321,
+            "name": "Linda rosa",
+            "packaging": {
+              "isFree": false,
+              "value": 50
+            }
+          }
+        ]
+      },
+     {
+        "id": 30,
+        "name": "Durazno",
+        "types": [{
+            "id": 301,
+            "name": "El Lady",
+            "packaging": {
+              "isFree": false,
+              "value": 50
             }
           }
         ]
@@ -88,7 +114,7 @@
     },
     {
       "id": 3,
-      "name": "Parra",
+      "name": "Zorzal",
       "products": [{
         "id": 30,
         "name": "Durazno",
@@ -119,6 +145,78 @@
             "packaging": {
               "isFree": true,
               "value": 0
+            }
+          }
+        ]
+      }]
+    },{
+      "id": 4,
+      "name": "Cosur",
+      "products": [{
+        "id": 10,
+        "name": "Banana",
+        "types": [{
+            "id": 103,
+            "name": "Ecuador Prem",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 21,
+        "name": "Pera",
+        "types": [{
+            "id": 212,
+            "name": "Giffard",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 5,
+      "name": "Tallador",
+      "products": [{
+        "id": 30,
+        "name": "Durazno",
+        "types": [{
+            "id": 302,
+            "name": "Bianca",
+            "packaging": {
+              "isFree": false,
+              "value": 40
+            }
+          }
+        ]
+      },
+      {
+        "id": 32,
+        "name": "Ciruela",
+        "types": [{
+            "id": 322,
+            "name": "Imperial",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 31,
+        "name": "Pelon",
+        "types": [{
+            "id": 311,
+            "name": "Star Del",
+            "packaging": {
+              "isFree": false,
+              "value": 40
             }
           }
         ]
