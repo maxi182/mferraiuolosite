@@ -6,7 +6,7 @@
         "id": 10,
         "name": "Banana",
         "types": [{
-            "id": 101,
+            "id": 1011,
             "name": "Paraguay",
             "packaging": {
               "isFree": true,
@@ -14,7 +14,7 @@
             }
           },
           {
-            "id": 102,
+            "id": 1021,
             "name": "Brasil",
             "packaging": {
               "isFree": true,
