@@ -155,7 +155,14 @@
       "products": [{
         "id": 10,
         "name": "Banana",
-        "types": [
+        "types": [{
+            "id": 103,
+            "name": "Ecuador Prem",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
           {
             "id": 1011,
             "name": "Paraguay",
