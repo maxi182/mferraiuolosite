@@ -221,6 +221,71 @@
           }
         ]
       }]
+    },
+    {
+      "id": 6,
+      "name": "Stelzer",
+      "products": [{
+        "id": 21,
+        "name": "Pera",
+        "types": [{
+            "id": 211,
+            "name": "Packhams",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 7,
+      "name": "Maresba",
+      "products": [{
+        "id": 30,
+        "name": "Durazno",
+        "types": [{
+            "id": 301,
+            "name": "El Lady",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }]
+    },
+    {
+      "id": 8,
+      "name": "Quiroga",
+      "products": [{
+        "id": 50,
+        "name": "Uva",
+        "types": [{
+            "id": 501,
+            "name": "Cereza",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Uva",
+        "types": [{
+            "id": 502,
+            "name": "Superior",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
     }
   ]
 }
