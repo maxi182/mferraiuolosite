@@ -162,6 +162,22 @@
               "isFree": true,
               "value": 0
             }
+          },
+          {
+            "id": 1011,
+            "name": "Paraguay",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          },
+          {
+            "id": 1021,
+            "name": "Brasil",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
           }
         ]
       },
