@@ -6,7 +6,7 @@
         "id": 10,
         "name": "Banana",
         "types": [{
-            "id": 1011,
+            "id": 101,
             "name": "Paraguay",
             "packaging": {
               "isFree": true,
@@ -14,7 +14,7 @@
             }
           },
           {
-            "id": 1021,
+            "id": 102,
             "name": "Brasil",
             "packaging": {
               "isFree": true,
@@ -281,6 +281,73 @@
             "packaging": {
               "isFree": true,
               "value": 0
+            }
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": 9,
+      "name": "Coralli",
+      "products": [{
+        "id": 50,
+        "name": "Uva",
+        "types": [{
+            "id": 503,
+            "name": "Red globe",
+            "packaging": {
+              "isFree": false,
+              "value": 40
+            }
+          }
+        ]
+      },
+      {
+        "id": 50,
+        "name": "Uva",
+        "types": [{
+            "id": 502,
+            "name": "Superior",
+            "packaging": {
+              "isFree": false,
+              "value": 40
+            }
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": 10,
+      "name": "Fruta",
+      "products": [{
+        "id": 40,
+        "name": "Limon",
+        "types": [{
+            "id": 401,
+            "name": "Eureka",
+            "packaging": {
+              "isFree": true,
+              "value": 0
+            }
+          }
+        ]
+      }
+    ]
+    },
+    {
+      "id": 11,
+      "name": "Los C",
+      "products": [{
+        "id": 40,
+        "name": "Limon",
+        "types": [{
+            "id": 401,
+            "name": "Eureka",
+            "packaging": {
+              "isFree": false,
+              "value": 40
             }
           }
         ]
