@@ -4,13 +4,13 @@
       "name": "Tallador",
       "products": [{
         "id": 110,
-        "name": "Torito",
+        "name": "Torito x $80",
         "types": [{
             "id": 1101,
-            "name": "x $30",
+            "name": "x $80",
             "packaging": {
               "isFree": false,
-              "value": 30
+              "value": 80
             }
           }
         ]
@@ -47,16 +47,16 @@
     },
     {
       "id": 3,
-      "name": "Sol-And",
+      "name": "Corrali",
       "products": [{
         "id": 30,
-        "name": "Bandeja frutilla",
+        "name": "Torito x $70",
         "types": [{
             "id": 301,
-            "name": "x $30",
+            "name": "x $70",
             "packaging": {
               "isFree": false,
-              "value": 30
+              "value": 70
             }
           }
         ]
