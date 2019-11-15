@@ -49,6 +49,23 @@
           }
         ]
       }]
+    },
+        {
+      "id": 4,
+      "name": "DYR",
+      "products": [{
+        "id": 40,
+        "name": "Torito x $50",
+        "types": [{
+            "id": 401,
+            "name": "x $50",
+            "packaging": {
+              "isFree": false,
+              "value": 50
+            }
+          }
+        ]
+      }]
     }
   ]
 }
